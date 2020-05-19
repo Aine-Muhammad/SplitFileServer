@@ -1,0 +1,2 @@
+# SplitFileServer
+This is a java project where the server sends a file from a specified folder by breaking it into chunks of 250 KBs and sending over to a client, which then reconstructs the file into one piece. Run the multiserver java file first so that the server is ready and then run the client file. Once the files are run in that order, the server will automatically proceed to send a file over the network. Howeer, you can search for a file you want to download from the client side or close the connection, altogether.
